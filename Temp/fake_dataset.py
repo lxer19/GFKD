@@ -12,7 +12,7 @@ import numpy as np
 
 from dgl import backend as F
 
-from dgl.graph import DGLGraph
+from dgl import DGLGraph
 
 _url = 'https://raw.githubusercontent.com/weihua916/powerful-gnns/master/dataset.zip'
 

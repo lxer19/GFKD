@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import dgl.function as fn
 from dgl.nn.pytorch.conv import GraphConv
-from model.GIN.readout import SumPooling, AvgPooling, MaxPooling
+from dgl.nn import SumPooling,AvgPooling, MaxPooling
 
 class GCN(nn.Module):
 

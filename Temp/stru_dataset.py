@@ -10,7 +10,7 @@ https://github.com/weihua916/powerful-gnns/blob/master/dataset.zip
 
 
 
-from dgl.graph import DGLGraph
+from dgl import DGLGraph
 
 
 
